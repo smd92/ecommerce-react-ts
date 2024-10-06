@@ -27,9 +27,9 @@ const LanguageSwitcher = () => {
         <button
           key={locale.value}
           onClick={() => handleLanguageChange(locale.value)}
-          className={`shadow-none rounded-full w-24 h-24 p-2 flex items-center justify-center transition-all duration-300 ease-in-out ${
+          className={`shadow-none rounded-full w-12 h-12 p-2 flex items-center justify-center transition-all duration-300 ease-in-out ${
             activeLang === locale.value
-              ? `bg-color-button-primary-theme1`
+              ? `bg-color-button-hover-theme1`
               : ""
           }`}
         >
